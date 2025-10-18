@@ -1,0 +1,47 @@
+body {
+    width: 100%;
+    font-family: "Times New Roman" times serif;
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+}
+
+
+h2 {
+    border-bottom: 2px solid gray;
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 5px;
+}
+
+p {
+    color: dark gray;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+h3 {
+    color: black;
+    font-size: 18px;
+    padding: -5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+header {
+    text-align: center;
+    color: black;
+}
+
+header::first-line {
+    text-transform: uppercase;
+}
+
+.date {
+    font-style: italic;
+    text-align: right;
+    font-weight: normal;
+    float: right;
+    font-size: 15 px;
+}
