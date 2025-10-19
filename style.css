@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 html, body {
     max-width: 900px;
     height: 100%;
@@ -6,12 +10,17 @@ html, body {
     background-color: rgb(255, 255, 255);
 }
 
+.border {
+    width: 100%;
+    margin: auto;
+    border: 2px solid black;
+}
+
 header {
     width: 100%;
     text-align: center;
     color: black;
     padding-bottom: 30px;
-    box-sizing: border-box;
 }
 
     header::first-line {
@@ -25,7 +34,6 @@ header {
         padding: 10px;
         background-color: rgb(214, 214, 214);
         width: 100%;
-        box-sizing: border-box;
     }
 
 h2 {
@@ -60,7 +68,6 @@ h3 {
 .container {
     display: flex;
     height: 100%;
-    box-sizing: border-box;
 }
 
 #left-column {
@@ -68,9 +75,10 @@ h3 {
     flex-direction: column;
     flex: 0 0 40%;
     border-right: 2px solid grey;
-    padding: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
     justify-content: space-between;
-    box-sizing: border-box;
 }
 
 
@@ -78,18 +86,7 @@ h3 {
     display: flex;
     flex-direction: column;
     flex: 0 0 60%;
-    padding: 30px;
-    box-sizing: border-box;
-}
-
-#right-column section {
-    flex: 1;
-    display: flex;          /* optional: to align content inside section */
-    flex-direction: column;
-    justify-content: center;
-    box-sizing: border-box;
-}
-
-section {
-
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
 }
