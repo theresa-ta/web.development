@@ -24,9 +24,9 @@ header {
     padding-bottom: 30px;
 }
 
-    header p {
+    h1 + p {
         display: flex;
-        justify-content: space-around;
+        justify-content: space-evenly;
         border: 1px solid grey;
         padding: 10px;
         background-color: rgb(214, 214, 214);
@@ -76,8 +76,9 @@ h4 {
     font-style: italic;
     text-align: right;
     font-weight: normal;
-    float: right;
+    float: left;
     font-size: 15 px;
+    padding-top: 20px;
 }
 
 .container {
@@ -94,7 +95,7 @@ h4 {
     padding-right: 30px;
     padding-bottom: 30px;
     justify-content: flex-start;
-    gap: 180px;
+    gap: 50px;
 }
 
 
