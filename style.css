@@ -56,6 +56,10 @@ p {
     padding-top: 20px;
 }
 
+a:visited {
+    color: blue;
+}
+
 h3 {
     color: black;
     font-size: 18px;
