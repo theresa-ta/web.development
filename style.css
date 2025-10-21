@@ -24,7 +24,8 @@ header {
     padding: 0px;
     
 }
-    nav {
+    .resume nav,
+    .coverletter nav {
         display: flex;
         justify-content: space-evenly;
         border: 1px solid grey;
@@ -32,6 +33,18 @@ header {
         background-color: rgb(214, 214, 214);
         width: 100%;
         letter-spacing: 1px;
+    }
+
+    .careergoals nav {
+        display: flex;
+        flex-grow: 1;
+        justify-content: space-evenly;
+        border: 1px solid grey;
+        margin: 10px;
+        padding: 10px;
+        background-color: light pink;
+        letter-spacing: 1px;
+        gap: 30px;
     }
 
     .first-line{
@@ -61,6 +74,10 @@ p {
     margin-top: 2px;
     margin-bottom: 2px;
     padding-top: 20px;
+}
+
+.resume{
+    margin: 0px;
 }
 
 .coverletter {

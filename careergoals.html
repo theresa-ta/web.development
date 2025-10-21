@@ -5,4 +5,112 @@
     <title>Theresa Career Goals</title>
     <link href="style.css" rel="stylesheet">
 </head>
+<body>
+<div class="careergoals">
+    <header>
+        <h1>Welcome, my name is Theresa Ta</h1>
+        <h3>
+        Computer Science student with a strong interest in software engineering, dedcated 
+        to creating efficient, scalable, and user-friendly software.
+        </h3>
+        <nav>
+            <span><a href="#home">Home</a></span>
+            <span><a href="#about">About Me</a></span>
+            <span><a href="#form">Contact Me</a></span>
+        </nav>
+    </header>   
+
+<section id="home">
+
+</section>
+
+<section id="about">
+    <h4>Who am I?</h4>
+    <p>
+        Hi there! A little about me :)<br>
+        I am currently a Registered Nurse transitioning into the technology field. I am 
+        currrently pursueing a Bachelor of Science in Computer Science at Western Governors 
+        Univeristy, projected to graudate in May 2027. My background in healthcare has honed 
+        my attention to detail, efficiency, and collaborative problem-solving skills, which
+        I now bring to software development. I have devloped personal projects in Python, SQL,
+        HTML, and CSS, including a personal website to showcase my resume anad portfolio. 
+        I am passionate about pursing a full-stack software engineer career, crreating solutions
+        from concepts to deployement. A fast learner, ambitious, and dedication professional, I 
+        am currently seeking internship opportunities where I can contribute innovative solutions, 
+        continue learning, and make meaningful impacts in the tech industry. <br>
+
+        I would be excited to bring my skills and dedication to your team. If you have open opportunities
+        or are seeking motivated interns, please don't hesitate to get in touch. <br>
+
+
+    </p>
+</section>
+
+
+<section id="form"> <!--action atribute container-->
+    <form  action="" method="POST" target="_blank">
+    <div>
+    <label for="firstname">First Name</label>
+    <input type="text" id="firstname" name="firstname">
+    </div>
+
+    <div>
+    <label for="lastname">Last Name</label>
+    <input type="text" id="lastname" name="lastname">
+    </div>
+
+    <div>
+    <label for="comapnyname">Company Name</label>
+    <input type="text" id="companyname" name="companyname">
+    </div>
+
+    <div>
+    <label for="email">Email Address</label>
+    <input type="text" id="email" name="email">
+    </div>
+
+    <div>
+        <label for="tel">Phone Number</label>
+        <input type="text" id="tel" name="tel">
+    </div>
+
+    <div>
+        <textarea name="message" rows="4" cols="50">Type Message Here:</textarea> <!--figure out how to make message in box dissapear-->
+    </div>
+
+    <div>
+    <p>Best contact time:</p>
+    <input type="radio" name="contacttime" id="AM">
+    <label for="AM">AM</label>
+    </div>
+
+    <div>
+    <input type="radio" name="contacttime" id="PM">
+    <label for="PM">PM</label>
+    </div>
+
+    <div>
+    <input type="radio" name="contacttime" id="anytime">
+    <label for="anytime">Anytime</label>
+    </div>
+
+    <div>
+    <p>Preffered Method</p>
+    <input list="method">
+    <datalist id="method">
+        <option value="Phone"></option>
+        <option value="Text"></option>
+        <option value="Email"></option>
+    </datalist>
+    </div>
+
+    <div>
+    <input type="submit">
+    </div>
+
+    </form>
+</section> <!--end action attribute-->
+
+</div> <!--end career goal div-->
+</body>
 </html>
