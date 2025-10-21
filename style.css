@@ -24,7 +24,7 @@ header {
     padding-bottom: 30px;
 }
 
-    h1 + p {
+    h1 + nav {
         display: flex;
         justify-content: space-evenly;
         border: 1px solid grey;
