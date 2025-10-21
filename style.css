@@ -21,7 +21,8 @@ header {
     width: 100%;
     color: black;
     text-align: center;
-    padding-bottom: 30px;
+    padding: 0px;
+    
 }
     nav {
         display: flex;
@@ -34,10 +35,12 @@ header {
     }
 
     .first-line{
-        padding: 30px;
+        padding: 8px;
+        padding-bottom: 30px;
         text-transform: uppercase;
         display: inline-block;
         letter-spacing: 3px;
+        font-size: 40px;
     }
 h2 {
     border-bottom: 2px solid gray;
@@ -60,11 +63,18 @@ p {
     padding-top: 20px;
 }
 
-h2 + p {
+.coverletter {
+
+}
+
+.coverletter main, 
+.coverletter section, 
+.coverletter article {
     color: dark gray;
-    padding: 30px;
+    padding-left: 30px;
     border-bottom: none;
     line-height: 2;
+    padding-bottom: 10px;
 
 }
 
@@ -95,6 +105,13 @@ h4 {
     float: left;
     font-size: 15 px;
     padding-top: 20px;
+}
+
+#todaysdate {
+    margin: 0px;
+    padding: 10px;
+    font-size: 8px;
+    text-align: right;
 }
 
 .container {
