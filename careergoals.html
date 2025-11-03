@@ -20,97 +20,116 @@
         </nav>
     </header>   
 
-<section id="home">
+    <section id="home">
+        <h2>Home</h2>
+        <p>Hi there! :) <br>
+        Here's a quick video displaying my career goals!</p>
+        <video controls width="400" >
+            <source src="video/video1.mp4" type="video/mp4">
+        </video>
+    </section>
+    
+    <section id="about">
+        <h2>About Me</h2>
+        <h4>Who am I?</h4>
+        <p>
+            I am a Registered Nurse transitioning into the technology field and currently pursuing a 
+            Bachelor of Science in Computer Science at Western Governors University, with an expected 
+            graduation date of May 2027. My background in healthcare has strengthened my attention to detail, 
+            efficiency, and collaborative problem-solving abilities, skills I now apply to software development. 
+            I have developed personal projects in Python, SQL, HTML, and CSS, including a personal website to 
+            showcase my resume and portfolio. Passionate about full-stack software engineering, I enjoy building 
+            solutions from concept to deployment. As a fast learner and driven professional, I am seeking 
+            internship opportunities where I can contribute innovative ideas, expand my technical expertise, 
+            and make a meaningful impact in the tech industry. <br>
 
-</section>
+            I would be excited to bring my skills and dedication to your team. If you have open opportunities
+            or are seeking motivated interns, please don't hesitate to
+            <span><a href="#form">contact me</a></span>. :)
+            <br>
 
-<section id="about">
-    <h4>Who am I?</h4>
-    <p>
-        Hi there! A little about me :)<br>
-        I am currently a Registered Nurse transitioning into the technology field. I am 
-        currrently pursueing a Bachelor of Science in Computer Science at Western Governors 
-        Univeristy, projected to graudate in May 2027. My background in healthcare has honed 
-        my attention to detail, efficiency, and collaborative problem-solving skills, which
-        I now bring to software development. I have devloped personal projects in Python, SQL,
-        HTML, and CSS, including a personal website to showcase my resume anad portfolio. 
-        I am passionate about pursing a full-stack software engineer career, crreating solutions
-        from concepts to deployement. A fast learner, ambitious, and dedication professional, I 
-        am currently seeking internship opportunities where I can contribute innovative solutions, 
-        continue learning, and make meaningful impacts in the tech industry. <br>
-
-        I would be excited to bring my skills and dedication to your team. If you have open opportunities
-        or are seeking motivated interns, please don't hesitate to get in touch. <br>
-
-
-    </p>
-</section>
-
-
-<section id="form"> <!--action atribute container-->
-    <form  action="" method="POST" target="_blank">
-    <div>
-    <label for="firstname">First Name</label>
-    <input type="text" id="firstname" name="firstname">
-    </div>
-
-    <div>
-    <label for="lastname">Last Name</label>
-    <input type="text" id="lastname" name="lastname">
-    </div>
-
-    <div>
-    <label for="comapnyname">Company Name</label>
-    <input type="text" id="companyname" name="companyname">
-    </div>
-
-    <div>
-    <label for="email">Email Address</label>
-    <input type="text" id="email" name="email">
-    </div>
-
-    <div>
-        <label for="tel">Phone Number</label>
-        <input type="text" id="tel" name="tel">
-    </div>
-
-    <div>
-        <textarea name="message" rows="4" cols="50">Type Message Here:</textarea> <!--figure out how to make message in box dissapear-->
-    </div>
-
-    <div>
-    <p>Best contact time:</p>
-    <input type="radio" name="contacttime" id="AM">
-    <label for="AM">AM</label>
-    </div>
-
-    <div>
-    <input type="radio" name="contacttime" id="PM">
-    <label for="PM">PM</label>
-    </div>
-
-    <div>
-    <input type="radio" name="contacttime" id="anytime">
-    <label for="anytime">Anytime</label>
-    </div>
-
-    <div>
-    <p>Preffered Method</p>
-    <input list="method">
-    <datalist id="method">
-        <option value="Phone"></option>
-        <option value="Text"></option>
-        <option value="Email"></option>
-    </datalist>
-    </div>
-
-    <div>
-    <input type="submit">
-    </div>
-
-    </form>
-</section> <!--end action attribute-->
-
-</div> <!--end career goal div-->
-</body>
-</html>
+            <h4>My Furry Animal</h4>
+            <p>This is my dog, Maxie! He keeps me going when i'm feeling down, and is the best emotional support
+                dog ever!
+            </p>
+            <img src="images/maxie.PNG" alt="My dog maxie" class="maxiephoto" width="200">
+    
+    
+        </p>
+    </section>
+    
+    
+    <section id="form"> <!--action atribute container-->
+        <h2>Contact Me</h2>
+        <form  action="" method="POST" target="_blank">
+        <div>
+        <label for="firstname"><strong>First Name</strong></label>
+        <input type="text" id="firstname" name="firstname">
+        </div>
+    
+        <div>
+        <label for="lastname"><strong>Last Name</strong></label>
+        <input type="text" id="lastname" name="lastname">
+        </div>
+    
+        <div>
+        <label for="comapnyname"><strong>Company Name</strong></label>
+        <input type="text" id="companyname" name="companyname">
+        </div>
+    
+        <div>
+        <label for="email"><strong>Email Address</strong></label>
+        <input type="text" id="email" name="email">
+        </div>
+    
+        <div>
+            <label for="tel"><strong>Phone Number</strong></label>
+            <input type="text" id="tel" name="tel">
+        </div>
+    
+        <div>
+            <textarea name="message" rows="4" cols="50">Type Message Here:</textarea> <!--figure out how to make message in box dissapear-->
+        </div>
+    
+        <div>
+        <p><strong>Best contact time:</strong></p>
+        <input type="radio" name="contacttime" id="AM">
+        <label for="AM">AM</label>
+        </div>
+    
+        <div>
+        <input type="radio" name="contacttime" id="PM">
+        <label for="PM">PM</label>
+        </div>
+    
+        <div>
+        <input type="radio" name="contacttime" id="anytime">
+        <label for="anytime">Anytime</label>
+        </div>
+    
+        <div>
+        <p><strong>Preffered Method</strong></p>
+        <input list="method">
+        <datalist id="method">
+            <option value="Phone"></option>
+            <option value="Text"></option>
+            <option value="Email"></option>
+        </datalist>
+        </div>
+    
+        <div>
+        <input type="submit">
+        </div>
+    
+        </form>
+    </section> <!--end action attribute-->
+    
+    </div> <!--end career goal div-->
+    <audio controls id="audio">
+        <source src="audio/audio1.mp3">
+    </audio>
+    <footer class="footer">
+        <p>References availble upon request</p>
+    </footer>
+    </body>
+    </html>
