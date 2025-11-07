@@ -209,3 +209,7 @@ h4 {
 #audio {
     width: 100%;
 }
+
+div p {
+    color: black;
+}
